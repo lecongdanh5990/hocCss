@@ -40,7 +40,14 @@ h1{
 }
 .main-nav__item{
     display: inline-block;
+    padding: 10px;
+    border: 1px solid red;
+    margin: 0px 10px;
     
+}
+.main-nav__item a{
+    color: 	#660000;
+    text-decoration: none;
 }
 .main-nav{
     display: inline-block;
