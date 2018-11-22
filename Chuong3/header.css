@@ -68,3 +68,11 @@ h1{
     font-weight: bold;
     font-size: 30px;
 }
+.main-nav__item:hover{
+    background-color: yellow;
+    border: black solid 1px;
+}
+.main-nav__item:active{
+    background-color: yellow;
+    border: black solid 1px;
+}
