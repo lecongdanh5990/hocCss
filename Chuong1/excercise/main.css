@@ -1,0 +1,30 @@
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Cutive Mono', monospace;
+font-family: 'Nanum Gothic', sans-serif;
+}
+
+h1{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Lato', sans-serif;
+    color: blue;
+}
+code{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Lato', sans-serif;    
+    font-family: 'Cutive Mono', monospace;
+    color: red;
+}
+li{
+    font-family: inherit;
+}
+li#thefirst{
+    background-color: aqua;
+}
+ol li{
+    background-color: yellowgreen;
+}
+.changecolor code{
+    color: orange;
+}

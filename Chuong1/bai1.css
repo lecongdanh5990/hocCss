@@ -1,0 +1,23 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#section1{
+    background-color: aquamarine;
+    padding: 20px;
+    border: 5px yellow solid;
+    margin: 20px;
+    
+}
+#section1 h1{
+    color: red;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.test{
+    color: yellow;
+    font-family: inherit;
+}
+
+h1{
+    font-family: inherit;
+}
