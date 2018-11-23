@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+body{
+    margin: 0px;
+}
+#firstbox{
+    background-color: aquamarine;
+    display: inline-block;
+    color: orangered;
+    font-weight: bold;
+    padding: 50px;
+    border: solid 2px red;
+    height:300px;
+    width: 50%;
+}
+#secondbox{
+    background-color: yellowgreen;
+    padding: 50px;
+    border: solid 2px red;
+    height:300px;
+    width: 50%;
+    display: inline-block;
+}
