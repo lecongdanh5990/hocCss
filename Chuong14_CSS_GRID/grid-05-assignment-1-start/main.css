@@ -1,0 +1,29 @@
+main{
+    display: grid;
+    height: 500px;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 15% 70% 15%;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-areas: "header header"
+                        "slide main"
+                        "footer footer"
+}
+.header{
+    background-color: green;
+    grid-area: header;
+}
+.slide-bar{
+    background-color: aquamarine;
+    grid-area: slide;
+}
+.main-content{
+    background-color: rgb(188, 214, 94);
+    grid-area: main;
+}
+.footer{
+    background-color: rgb(233, 150, 26);
+    /* grid-column-start: 1;
+    grid-column-end:-1; */
+    grid-area: footer;
+}
