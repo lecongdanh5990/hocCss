@@ -1,0 +1,29 @@
+.main{
+    grid-column: span 2;
+    display: grid;
+    grid-template-rows:20% auto 5%; 
+    grid-template-columns:80% auto ;
+}
+.signup{
+    grid-row: span 3;
+}
+.content{
+    background-color: rgb(255, 0, 200);
+    display: grid;
+    grid-row-gap: 0.5rem;
+}
+.categories-detail{
+    display: grid;
+    grid-column-gap: 0.5rem;
+    grid-template-columns:20% auto ;
+    grid-template-rows:repeat(20%,auto); 
+}
+.categories-detail__image{
+    background-color: rgb(0, 204, 255);
+}
+.categories-detail__content{
+    background-color: rgb(251, 255, 0);
+}
+.pagination{
+    background-color: rgb(251, 255, 0);
+}

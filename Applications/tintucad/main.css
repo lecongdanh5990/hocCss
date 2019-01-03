@@ -1,0 +1,68 @@
+.header{
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+.menu{
+    background-color: rgb(0, 255, 34);
+    grid-column: span 2;
+}
+.main{
+    background-color: chocolate;
+    grid-column: span 2;
+    display: grid;
+    grid-template-rows:5% 30% 10% auto; 
+    grid-template-columns:50% 30% 20%;
+}
+.bainoibat{
+    background-color: rgb(88, 72, 61);
+    grid-row: span 2;
+    display: grid;
+    grid-template-rows:70% auto; 
+    grid-template-columns:repeat(3,auto);
+}
+.bainoibat_dautien{
+    grid-column: span 3;
+}
+.baixemnhieu{
+    background-color: rgb(170, 98, 50);
+}
+.baixemnhieu{
+    background-color: rgb(170, 98, 50);
+}
+.signup{
+    background-color: rgb(160, 170, 25);
+    grid-row: span 3;
+}
+.space{
+    background-color: rgb(73, 78, 5);
+    grid-column: span 2;
+}
+.categories{
+    background-color: rgb(5, 78, 17);
+    grid-column: span 2;
+    display: grid;
+    grid-template-rows:repeat(3,auto); 
+    grid-template-columns:repeat(2,auto);
+}
+.categories-detail{
+    background-color: rgb(16, 5, 78);
+    display: grid;
+    grid-template-rows:10% 10% auto 30%; 
+}
+.categories-detail__name{
+    background-color: rgb(163, 218, 172);
+}
+.categories-detail__num-of-view{
+    background-color: rgb(46, 212, 73);
+}
+.categories-detail__news{
+    background-color: rgb(6, 24, 9);
+}
+.categories-detail__relate-news{
+    background-color: rgb(10, 138, 32);
+}
+.footer{
+    background-color: rgb(96, 54, 168);
+    grid-column: span 2;
+}
